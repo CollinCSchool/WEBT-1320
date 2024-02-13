@@ -1,0 +1,146 @@
+/* Global Styles */
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+
+body {
+    background-color: #272727;
+}
+
+#container {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #272727;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+nav {
+    background-color: #f1e3ba;
+    padding: 10px;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+.button {
+    background-color: #27272731;
+    height: 33.33%;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav li a {
+    display: block;
+    height: px;
+    line-height: 40px;
+    color: black;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #2727271e;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    
+}
+
+h2, h3 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    
+}
+
+/* Delete Maybe Idk */
+
+/* main {
+    border: 2px solid black;
+    border-radius: 0%;
+    padding: 10px;
+    margin: 10px 0;
+} */
+
+/* Delete Maybe Idk */
+
+#lower {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid black;
+    border-radius: 2%;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+/* Tablet Media */
+
+@media (min-width : 786px) {
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    width: 200px;
+}
+
+img {
+    width: 75%;
+}
+
+}
+
+/* Desktop Media */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    
+    #lower {
+        width: 100%;
+        display: flex;
+    }
+
+    .col {
+        width: 33.33%;
+    }
+}
