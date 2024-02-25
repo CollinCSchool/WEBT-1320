@@ -23,7 +23,7 @@ img {
 }
 
 body {
-    background-image: url(/assets/images/Gridcurve.gif);
+    background-image: url(/assets/imgs/Gridcurve.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -31,7 +31,7 @@ body {
 }
 
 #container {
-    background-image: url(/assets/images/GridExperiment9.png);
+    background-image: url(/assets/imgs/GridExperiment9.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,7 +41,7 @@ body {
 }
 
 #container2 {
-    background-image: url(/assets/images/GridExperiment.png);
+    background-image: url(/assets/imgs/GridExperiment.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,7 +51,7 @@ body {
 }
 
 #container3 {
-    background-image: url(/assets/images/GridExperiment2.png);
+    background-image: url(/assets/imgs/GridExperiment2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -61,7 +61,7 @@ body {
 }
 
 #container4 {
-    background-image: url(/assets/images/GridExperiment6.png);
+    background-image: url(/assets/imgs/GridExperiment6.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -71,7 +71,7 @@ body {
 }
 
 #container5 {
-    background-image: url(/assets/images/2kx2kPosterSunless.png);
+    background-image: url(/assets/imgs/2kx2kPosterSunless.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
