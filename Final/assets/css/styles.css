@@ -1,0 +1,213 @@
+/* Fonts */
+
+@font-face {
+    font-family: Good Time;
+    src: url(/assets/fonts/GOODTIME.TTF);
+}
+
+h1, h2, h3, h4 {
+    font-family: Good Time;
+}
+
+.button {
+    font-family: Good Time;
+}
+
+
+/* Global Styles */
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+
+body {
+    background-image: url(/Images/Gridcurve.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    background-image: url(/Images/GridExperiment9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #ffffff85;
+    border-radius: 2%;
+    padding: 50px;
+}
+
+#container2 {
+    background-image: url(/Images/GridExperiment.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #ffffff85;
+    border-radius: 2%;
+    padding: 50px;
+}
+
+#container3 {
+    background-image: url(/Images/GridExperiment2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #ffffff85;
+    border-radius: 2%;
+    padding: 50px;
+}
+
+#container4 {
+    background-image: url(/Images/GridExperiment6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #ffffff85;
+    border-radius: 2%;
+    padding: 50px;
+}
+
+#container5 {
+    background-image: url(/Images/2kx2kPosterSunless.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #ffffff85;
+    border-radius: 2%;
+    padding: 50px;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #272727;
+    text-decoration: none;
+}
+
+.lower {
+    background-color: #ffffff85;
+    border: 2px solid black;
+    border-radius: 2%;
+    padding: 50px;
+}
+
+/* Mobile Styles */
+
+nav {
+    background-color: #ffffff80;
+    padding: 10px;
+    border: 2px solid #ffffff80;
+    border-radius: 0%;
+}
+
+nav ul {
+list-style: none;
+padding: 0px;
+}
+
+nav li {
+    display: block;
+}
+
+.button {
+    background-color: #27272731;
+    height: 33.33%;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+nav li a {
+    display: block;
+    height: px;
+    line-height: 40px;
+    color: black;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #2727271e;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    
+}
+
+h2, h3, h4 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+/* Tablet Media */
+
+@media (min-width : 786px) {
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    width: 200px;
+}
+
+img {
+    width: 50%;
+}
+
+}
+
+/* Desktop Media */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #container2 {
+        width: 65%;
+        margin: 20px auto;
+    }
+    
+    #container3 {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #container4 {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #container5 {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #lower {
+        width: 100%;
+        display: flex;
+    }
+}
